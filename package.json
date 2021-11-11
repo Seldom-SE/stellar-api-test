@@ -1,0 +1,24 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "author": "Seldom",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "tsc & node ."
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cross-blob": "^3.0.0",
+    "firebase": "^9.3.0",
+    "fs": "^0.0.1-security",
+    "node-blob": "^0.0.2",
+    "node-fetch": "2.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/node-fetch": "2.5.12",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
